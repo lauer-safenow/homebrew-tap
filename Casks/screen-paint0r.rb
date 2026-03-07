@@ -8,4 +8,8 @@ cask "screen-paint0r" do
   homepage "https://github.com/lauer-safenow/screen-paint0r"
 
   app "Screen Paint0r.app"
+
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Screen Paint0r.app"]
+  end
 end
