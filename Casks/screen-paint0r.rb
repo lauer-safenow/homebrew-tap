@@ -1,6 +1,6 @@
 cask "screen-paint0r" do
-  version "0.0.3"
-  sha256 "9149d3f9fdf458a695c780a7739c9add6f44184a617a1c9065bdb99cbe8e97f1"
+  version "0.0.4"
+  sha256 "4e22e1f268a0ee91923c86008de60d7657571f5de2e026d2e6568c2aa145fbde"
 
   url "https://github.com/lauer-safenow/screen-paint0r/releases/download/v#{version}/Screen-Paint0r-#{version}.dmg"
   name "Screen Paint0r"
